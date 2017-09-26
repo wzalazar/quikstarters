@@ -1,0 +1,23 @@
+{
+  "name": "demo-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:watch": "nodemon -e ts -w . -x npm run start:dev",
+    "start:dev": "ts-node --inspect=0.0.0.0:5858 ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "typescript": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.30",
+    "nodemon": "^1.12.1",
+    "ts-node": "^3.3.0"
+  }
+}

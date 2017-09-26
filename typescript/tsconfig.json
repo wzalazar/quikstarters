@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "types": [
+      "node"
+    ],
+    "module": "commonjs",
+    "sourceMap": true,
+    "watch": true,
+    "outDir": "./dist"
+  }
+}
